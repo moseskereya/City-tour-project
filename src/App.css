@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+@media screen and (min-width:768px){
+.tour{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:1.5rem;
+}
+}
+    .view-details{
+        padding: 0 .3rem ;
+    }
